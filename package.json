@@ -1,0 +1,39 @@
+{
+  "name": "stellarmind",
+  "version": "0.1.0",
+  "private": true,
+  "description": "StellarMind — AI Agent Registry & Autonomous Payment Gateway on Stellar",
+  "workspaces": [
+    "sdk",
+    "dashboard"
+  ],
+  "scripts": {
+    "build:contracts": "cd contracts && cargo build --target wasm32-unknown-unknown --release",
+    "test:contracts": "cd contracts && cargo test",
+    "build:sdk": "cd sdk && npm run build",
+    "test:sdk": "cd sdk && npm test",
+    "dev:dashboard": "cd dashboard && npm run dev",
+    "build:dashboard": "cd dashboard && npm run build",
+    "build:all": "npm run build:sdk && npm run build:dashboard",
+    "test:all": "npm run test:contracts && npm run test:sdk"
+  },
+  "keywords": [
+    "stellar",
+    "soroban",
+    "ai-agents",
+    "web3",
+    "autonomous-payments",
+    "registry",
+    "usdc",
+    "x402"
+  ],
+  "author": "StellarMind Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/stellarmind"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
