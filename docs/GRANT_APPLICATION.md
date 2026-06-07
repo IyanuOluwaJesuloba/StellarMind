@@ -121,6 +121,6 @@ StellarMind is a community project. The initial architecture and codebase was de
 
 ## Links
 
-- **GitHub:** https://github.com/your-org/stellarmind
+- **GitHub:** https://github.com/IyanuOluwJesuloba/stellarmind
 - **License:** MIT
-- **Contact:** [your email or Discord handle]
+- **Contact:** jesulobaowoseni1@gmail.com
