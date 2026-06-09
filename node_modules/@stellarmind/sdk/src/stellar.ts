@@ -33,8 +33,8 @@ const CONTRACT_IDS: Record<Network, { registry: string; policy: string }> = {
     policy: '',   // TBD — post deployment
   },
   testnet: {
-    registry: 'CDNIWZNIUOQ7V6RKIFRWXCNQ7C5SQPQLF5B6WHMQF4DXNPVWXRMWVQ', // testnet deployment
-    policy:   'CDRPZX4UL2WMULWXD7DPHSIFYPVZKCHJWZGP2BPEDPUAJFV5PMXNGGQ', // testnet deployment
+    registry: 'CDTHE5SNO7UTBTSSVWAYN5TXYNJXZYOUTRMETMHVB4IHGTNRJ6PKE54R', // deployed June 2026
+    policy:   'CA4ZN5RGGKBXWYAB36HXTLBB73ROHQKH527GX4GONRWRNVNWFLIHAKKDJ',
   },
   futurenet: {
     registry: '',
